@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROB STEPHENS</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Add your current website's CSS -->
+  <style>
+    /* Styles for the link-sharing page */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #2C2F31; /* Adjust as needed */
+      margin: 0;
+      padding: 20px;
+      opacity: 0;
+      animation: fadeIn 1.8s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(50%);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .link-container {
+      max-width: 800px; /* Adjust based on your preference */
+      margin: 0 auto;
+      display: grid;
+      gap: 20px;
+    }
+
+    .link-item {
+      background-color: #ffffff; /* Adjust as needed */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+    }
+
+    .link-item a {
+      text-decoration: none;
+      color: #333333; /* Adjust as needed */
+      font-size: 24px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .link-item a i {
+      margin-right: 10px;
+      font-size: 24px;
+    }
+
+    .link-item:hover {
+      transform: translateY(-5px);
+      transition: all 0.3s ease;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      font-size: 2rem;
+      color: #9F958B;; /* Adjust as needed */
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      color: #000000; /* Adjust as needed */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Include your existing header with navigation here -->
+    <!-- Example: -->
+    <div class="header-container">
+      <a href="https://linktr.ee/robmixedthis" target="_blank" class="title-link">
+        <h1 class="title">ROB STEPHENS</h1>
+      </a>
+      <br>
+      <h2 class="subtitle">recording engineer&nbsp; /&nbsp;  producer&nbsp;  /&nbsp;  mixer </h2>
+      <nav class="navigation">
+        <ul>
+          <li><a href="main.html">HOME</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="scrapbook.html">SCRAPBOOK</a></li>
+          <li><a href="contact.html" class="special">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Link-sharing section -->
+  <div class="link-container">
+    <!-- Each link-item represents a link/button -->
+    <div class="link-item">
+      <a href="mailto:robmixedthis@gmail.com" target="_blank"><i class="fa fa-envelope"></i> Email For Enquiries</a>
+    </div>
+    <div class="link-item">
+      <a href="https://instagram.com/robmixedthis" target="_blank"><i class="fa fa-instagram"></i> DM me on Instagram</a>
+    </div>
+
+    <!-- Add more link-items as needed -->
+  </div>
+</body>
+</html>

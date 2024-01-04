@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROB STEPHENS</title>
+    <link rel="icon" href="images/loadicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="scrapstyle.css">
+
+    <style>
+      /* CSS for the loading screen */
+      /* ... */
+
+      /* CSS for the bottom fade-in effect */
+      body {
+        opacity: 0;
+        animation: fadeIn 1.8s ease-in-out forwards;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(50%);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+      <a href="https://linktr.ee/robmixedthis" targe="_blank" class="title-link">
+        <h1 class="title">ROB STEPHENS</h1>
+    </a>
+      <br>
+      <h2 class="subtitle">recording engineer&nbsp; /&nbsp;  producer&nbsp;  /&nbsp;  mixer </h2>
+      <nav class="navigation">
+        <ul>
+          <li><a href="main.html">HOME</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="scrapbook.html" class="special">SCRAPBOOK</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <div id="background">
+        <div id="gallery">
+          <figure class="pic1" onlclick="toggleImageSize(this)">
+            <img src="scrapbook/remaXMillionz.jpg" />
+            <figcaption>Rema X M1llionz</figcaption>
+          </figure>
+          <figure class="pic2">
+            <img src="scrapbook/sarz.png" />
+            <figcaption>Sarz</figcaption>
+          </figure>
+          <figure class="pic3">
+            <img src="scrapbook/blaqbonezXodeal.PNG" />
+            <figcaption>Blaqbonez x Odeal</figcaption>
+          </figure>
+          <figure class="pic4">
+            <img src="scrapbook/c&s.jpeg" />
+            <figcaption>Chase & Status</figcaption>
+          </figure>
+          <figure class="pic5">
+            <img src="scrapbook/mrkipling.jpeg" />
+            <figcaption>Mr. Kipling X Studio</figcaption>
+          </figure>
+          <figure class="pic6">
+            <img src="scrapbook/daXm1onthebeat.png" />
+            <figcaption>DA(#98's) x M1OnTheBeat</figcaption>
+          </figure>
+          <figure class="pic7">
+            <img src="scrapbook/nafe.PNG" />
+            <figcaption>Nafe Smallz</figcaption>
+          </figure>
+          <!---->
+          <figure class="pic12">
+            <img src="scrapbook/future.PNG" />
+            <figcaption>Future</figcaption>
+          </figure>
+          <figure class="pic13">
+            <img src="scrapbook/tionwayneXmurda.PNG" />
+            <figcaption>Tion Wayne x Murda</figcaption>
+          </figure>
+          <figure class="pic14">
+            <img src="scrapbook/sneakbo.PNG" />
+            <figcaption>Sneakbo</figcaption>
+          </figure>
+          <figure class="pic14">
+            <img src="scrapbook/m24xWWW.png" />
+            <figcaption>M24 x WeWantWratihs</figcaption>
+          </figure>
+          <figure class="pic15">
+          <img src="scrapbook/vickypasion.PNG" />
+          <figcaption>Vicky Pasion</figcaption>
+          </figure>
+          <!---->
+          <figure class="pic8">
+            <img src="scrapbook/ericiv.png" />
+            <figcaption>Eric IV</figcaption>
+          </figure>
+          <figure class="pic9">
+            <img src="scrapbook/shayboXnsg.PNG" />
+            <figcaption>Shaybo x NSG</figcaption>
+          </figure>
+          <figure class="pic10">
+            <img src="scrapbook/felix1st.jpg" />
+            <figcaption>FelixThe1st</figcaption>
+          </figure>
+          <figure class="pic11">
+            <img src="scrapbook/eo.png" />
+            <figcaption>EO</figcaption>
+          </figure>
+          <figure class="pic12">
+            <img src="scrapbook/berna.PNG" />
+            <figcaption>Berna</figcaption>
+          </figure>
+          <figure class="pic13">
+            <img src="scrapbook/shamaralondon.JPG" />
+            <figcaption>Shemara London</figcaption>
+          </figure>
+          <figure class="pic15">
+          <img src="scrapbook/lilzak.JPG" />
+          <figcaption>Lil Zak</figcaption>
+          </figure>
+          <figure class="pic16">
+          <img src="scrapbook/djv.png" />
+          <figcaption>DJV</figcaption>
+          </figure>
+          <figure class="pic17">
+          <img src="scrapbook/ferrenzo.jpg" />
+          <figcaption>Ferrenzo</figcaption>
+          </figure>
+          <figure class="pic18">
+          <img src="scrapbook/unknownt.png" />
+          <figcaption>Unknown T</figcaption>
+          </figure>
+          <figure class="pic19">
+          <img src="scrapbook/headofanr.JPG" />
+          <figcaption>Head of A&R</figcaption>
+          </figure>
+          <figure class="pic20">
+          <img src="scrapbook/smirding.png" />
+          <figcaption>Smirding</figcaption>
+          </figure>
+          <figure class="pic21">
+          <img src="scrapbook/uniXstudio.PNG" />
+          <figcaption>Uni x Studio 😤</figcaption>
+          </figure>
+
+        </div>
+      </div>
+      <script>
+        function toggleImageSize(img) {
+          const figure = img.parentNode;
+          if (!figure.classList.contains('expanded')) {
+            // If not expanded, expand the image
+            figure.classList.add('expanded');
+          } else {
+            // If already expanded, return to normal size
+            figure.classList.remove('expanded');
+          
+          }
+        }
+
+
+      </script>
+
+  </body>
+  <!-- FOOTER --
+  <footer>
+    <div class="container">
+      <p class="text-center">© 2023 ROB STEPHENS. All rights reserved.<br>MADE BY: <a href="https://instagram.com/robmixedthis" style="color: #9F958B;" ><strong>ROB</strong></a>.</p>
+    </div>
+  </footer>
+-->
+  
+</html>
+
+
+<!--  page color: #2C2F31, title color: #CDC8C2, other color: #9F958B -->
