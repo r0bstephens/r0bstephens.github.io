@@ -347,17 +347,11 @@ figure.pic22 {
   }
 }
 
-/* Responsive hover effect on figures 
+/* Responsive hover effect on figures */
 #background figure:hover {
   box-shadow: 0.5vw 1vw 5vw black;
-  transform: scale(1.6, 1.6) rotate(0deg);
+  transform: scale(1.3, 1.3) rotate(0deg);
   z-index: 20;
 }
-*/
 
-/* Expanded state */
-#background figure.expanded {
-  transform: scale(1.6, 1.6) rotate(0deg);
-  z-index: 20;
-  box-shadow: 0.5vw 1vw 5vw black;
-}
+
